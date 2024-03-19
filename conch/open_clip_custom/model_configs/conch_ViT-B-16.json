@@ -1,0 +1,31 @@
+{
+    "embed_dim": 512,
+    "embed_dim_caption": 768,
+    "vision_cfg": {
+        "image_size": 448,
+        "patch_size": 16,
+        "attentional_pool_caption": true,
+        "attentional_pool_contrast": true,
+        "attn_pooler_heads": 8,
+        "n_queries_contrast": 1,
+        "n_queries_caption": 256,
+        "output_tokens": true
+    },
+    "text_cfg": {
+        "context_length": 128,
+        "vocab_size": 32007,
+        "width": 768,
+        "heads": 12,
+        "layers": 12,
+        "embed_cls": true,
+        "output_tokens": true
+    },
+    "multimodal_cfg": {
+        "context_length": 128,
+        "vocab_size": 32007,
+        "width": 768,
+        "heads": 12,
+        "layers": 12
+    },
+    "custom_text": true
+}

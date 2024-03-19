@@ -1,0 +1,89 @@
+{
+    "0": {
+        "classnames": {
+            "ADI": [
+                "adipose",
+                "adipose tissue",
+                "adipocytes",
+                "fat",
+                "fat cells"
+            ],
+            "BACK": [
+                "background",
+                "penmarking",
+                "empty space",
+                "background artifacts"
+            ],
+            "DEB": [
+                "debris",
+                "colorectal adenocarcinoma debris and necrosis",
+                "necrosis",
+                "necrotic debris"
+            ],
+            "LYM": [
+                "lymphocytes",
+                "lymphoid aggregate",
+                "immune cells",
+                "lymphoid infiltrate",
+                "inflammatory cells"
+            ],
+            "MUC": [
+                "mucus",
+                "mucin",
+                "mucus pool",
+                "mucin pool"
+            ],
+            "MUS": [
+                "smooth muscle",
+                "smooth muscle tissue",
+                "muscle",
+                "muscularis propria",
+                "muscularis mucosa"
+            ],
+            "NORM": [
+                "normal colon mucosa",
+                "uninvolved colon mucosa",
+                "normal colonic mucosa",
+                "benign epithelium"
+            ],
+            "STR": [
+                "cancer-associated stroma",
+                "tumor-associated stroma",
+                "stromal cells",
+                "stromal tissue",
+                "stroma"
+            ],
+            "TUM": [
+                "colorectal adenocarcinoma epithelium",
+                "colorectal adenocarcinoma",
+                "tumor",
+                "adenocarcinoma",
+                "malignant epithelium"
+            ]
+        },
+        "templates": [
+            "CLASSNAME.",
+            "a photomicrograph showing CLASSNAME.",
+            "a photomicrograph of CLASSNAME.",
+            "an image of CLASSNAME.",
+            "an image showing CLASSNAME.",
+            "an example of CLASSNAME.",
+            "CLASSNAME is shown.",
+            "this is CLASSNAME.",
+            "there is CLASSNAME.",
+            "a histopathological image showing CLASSNAME.",
+            "a histopathological image of CLASSNAME.",
+            "a histopathological photograph of CLASSNAME.",
+            "a histopathological photograph showing CLASSNAME.",
+            "shows CLASSNAME.",
+            "presence of CLASSNAME.",
+            "CLASSNAME is present.",
+            "an H&E stained image of CLASSNAME.",
+            "an H&E stained image showing CLASSNAME.",
+            "an H&E image showing CLASSNAME.",
+            "an H&E image of CLASSNAME.",
+            "CLASSNAME, H&E stain.",
+            "CLASSNAME, H&E."
+        ]
+    }
+}
