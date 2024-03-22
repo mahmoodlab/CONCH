@@ -33,7 +33,7 @@ First create the `checkpoints` directory inside the root of the repo:
 ```shell
 mkdir -p checkpoints/conch/
 ```
-Then download the pretrained model (`conch.pt`) and place it in the `CONCH/checkpoints/conch/` directory. 
+Then download the pretrained model (`pytorch_model.bin`) and place it in the `CONCH/checkpoints/conch/` directory. 
 
 3. Loading the model
 First import the model builder:
@@ -42,7 +42,7 @@ from conch.open_clip_custom import create_model_from_pretrained
 ```
 Now you can load the model as follows (assuming you have the model weights in the `CONCH/checkpoints/conch/` directory):
 ```python
-model, preprocess = create_model_from_pretrained("conch_ViT-B-16", checkpoint_path="checkpoints/conch/conch.pt")
+model, preprocess = create_model_from_pretrained("conch_ViT-B-16", checkpoint_path="checkpoints/conch/pytorch_model.bin")
 ```
 
 Alternatively, you can use the following command to download and then load the model directly from HF after requesting access:

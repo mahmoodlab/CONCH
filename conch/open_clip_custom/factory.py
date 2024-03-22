@@ -55,9 +55,13 @@ def create_model(
     model = CoCa(**model_cfg)
 
     if checkpoint_path.startswith("hf_hub:"): 
-        checkpoint_path = hf_hub_download(checkpoint_path[len("hf_hub:"):], 
-                                          cache_dir=cache_dir, filename="conch.pt",
+        _ = hf_hub_download(checkpoint_path[len("hf_hub:"):], 
+                                          cache_dir=cache_dir, filename="meta.yaml",
                                           token=hf_auth_token)
+        checkpoint_path = hf_hub_download(checkpoint_path[len("hf_hub:"):], 
+                                          cache_dir=cache_dir, filename="pytorch_model.bin",
+                                          token=hf_auth_token)
+        
     load_checkpoint(model, checkpoint_path)
 
     model.to(device=device)
