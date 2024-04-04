@@ -29,6 +29,7 @@ pip install -e .
 1. Request access to the model weights from the Huggingface model page [here](https://huggingface.co/MahmoodLab/conch).
 
 2. Download the model weights 
+
 First create the `checkpoints` directory inside the root of the repo:
 ```shell
 mkdir -p checkpoints/conch/
@@ -36,6 +37,7 @@ mkdir -p checkpoints/conch/
 Then download the pretrained model (`pytorch_model.bin`) and place it in the `CONCH/checkpoints/conch/` directory. 
 
 3. Loading the model
+
 First import the model builder:
 ```python
 from conch.open_clip_custom import create_model_from_pretrained
@@ -152,9 +154,12 @@ Lu, M. Y., Chen, B., Williamson, D. F., Chen, R. J., Liang, I., Ding, T., ... & 
 
 ```
 @article{lu2024avisionlanguage,
-  title={A Vision Language Foundation Model for Computational Pathology},
-  author={Lu, Ming Y and Chen, Bowen and Williamson, Drew FK and Chen, Richard J and Liang, Ivy and Ding, Tong and Jaume, Guillaume and Odintsov, Igor and Zhang, Andrew and Le, Long Phi and others},
+  title={A visual-language foundation model for computational pathology},
+  author={Lu, Ming Y and Chen, Bowen and Williamson, Drew FK and Chen, Richard J and Liang, Ivy and Ding, Tong and Jaume, Guillaume and Odintsov, Igor and Le, Long Phi and Gerber, Georg and others},
   journal={Nature Medicine},
+  pages={863–874},
+  volume={30},
+  year={2024},
   publisher={Nature Publishing Group}
 }
 ```
