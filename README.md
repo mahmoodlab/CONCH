@@ -107,7 +107,7 @@ For a full example using dataloaders and prompt ensembling see [**here**](notebo
 See [**here**](notebooks/MI-zeroshot_classification_example_ensemble.ipynb). Note that you will first need to tile the WSIs and convert the tiles into embeddings using the CONCH vision encoder model.
 
 ### Zeroshot cross-modality retrieval (image / text):
-See [**here**](**notebooks/zeroshot_retrieval_example.ipynb**) for a starter simple example.
+See [**here**](notebooks/zeroshot_retrieval_example.ipynb) for a starter simple example.
 
 
 ## Additional Representative Benchmarks
