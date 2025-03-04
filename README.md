@@ -37,7 +37,7 @@ pip install -e .
 
 First create the `checkpoints` directory inside the root of the repo:
 ```shell
-mkdir -p checkpoints/conch/
+mkdir -p checkpoints/CONCH/
 ```
 Then download the pretrained model (`pytorch_model.bin`) and place it in the `CONCH/checkpoints/conch/` directory. 
 
